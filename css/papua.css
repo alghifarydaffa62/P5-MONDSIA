@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color:#00657B;
+    font-family: 'Philosopher', sans-serif;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 10%;
+    position: absolute;
+    width: 100%;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+li a {
+    padding-right: 15px;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+.intro {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+    color: white;
+}
+.intro h1 {
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+.landing {
+    width: 100%;
+    height: 100vh;
+    filter: brightness(70%);
+}
+.button {
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    border-radius: 26px;
+    margin: auto;
+    margin-top: 13px;
+    padding-top: 5px;
+}
+.button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.budaya h1 {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-inline: 50px;
+    color: white;
+    margin-top: 65px;
+}
+.row h2 {
+    padding-bottom: 10px;
+    font-size: 27px;
+}
+.row2 h2 {
+    padding-bottom: 10px;
+    font-size: 27px;
+}
+.row img {
+    width: 336px;
+    height: 440px;
+    filter: brightness(70%);
+    border-radius: 15px;
+}
+.row2 img {
+    width: 336px;
+    height: 440px;
+    filter: brightness(70%);
+    border-radius: 15px;
+}
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-inline: 50px;
+    color: white;
+    flex-direction: row-reverse;
+    text-align: right;
+    margin-top: 65px;
+}
+.strip {
+    width: 50px; 
+    height: 3px; 
+    background-color: aqua; 
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.footer {
+    color: white;
+    text-align: left;
+    margin-bottom: 60px;
+}
+.row4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    padding-top: 60px;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    display: block;
+}
+
+.col p {
+    padding-top: 10px;
+}
+.col h5 {
+    font-weight: normal;
+}
+.col h4 {
+    padding-bottom: 10px;
+    font-weight: normal;
+}
