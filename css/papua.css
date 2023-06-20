@@ -5,7 +5,7 @@
     margin: 0;
 }
 body {
-    background-color:#00657B;
+    background-color: #3D631F;
     font-family: 'Philosopher', sans-serif;
 }
 .nav {
@@ -44,7 +44,7 @@ li a {
 .landing {
     width: 100%;
     height: 100vh;
-    filter: brightness(70%);
+    filter: brightness(50%);
 }
 .button {
     width: 150px;
