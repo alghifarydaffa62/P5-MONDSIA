@@ -21,6 +21,9 @@ body {
     text-decoration: none;
     color: white;
 }
+nav a:hover {
+    color: aqua;
+}
 ul {
     display: flex;
     list-style: none;
@@ -130,7 +133,9 @@ li a {
     padding-top: 10px;
     display: block;
 }
-
+.menu a:hover {
+    color: aqua;
+}
 .col p {
     padding-top: 10px;
 }
