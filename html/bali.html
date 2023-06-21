@@ -6,29 +6,32 @@
     <title>Bali</title>
     <link rel="stylesheet" href="../css/bali.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../script.js"></script>
     <script>
       AOS.init();
     </script> 
 
     <div class="jumbotron">
         <img class="landing" src="../img/Bali (2).jpg">
-        <div class="nav">
-            <a href="../index.html"><h3>Mondsia</h3></a>
-
-            <div class="menu">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="jawa.html">Jawa</a></li>
-                    <li><a href="bali.html">Bali</a></li>
-                    <li><a href="kalimantan.html">Kalimantan</a></li>
-                    <li><a href="sumatra.html">Sumatra</a></li>
-                    <li><a href="sulawesi.html">Sulawesi</a></li>
-                    <li><a href="papua.html">Papua</a></li>
-                </ul>
-            </div>
+        <div class="topnav" id="myTopnav">
+            <h2><a href="">Mondsia</a></h2>
+            
+            <div class="link">
+                <a href="../index.html">Home</a>
+                <a href="jawa.html">Jawa</a>
+                <a href="bali.html" class="active">Bali</a>
+                <a href="kalimantan.html">Kalimantan</a>
+                <a href="sulawesi.html">Sulawesi</a>
+                <a href="sumatra.html">Sumatra</a>
+                <a href="papua.html">Papua</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div> 
         </div>
 
         <div class="intro" data-aos="fade-up" data-aos-duration="1000">
