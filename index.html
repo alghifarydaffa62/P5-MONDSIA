@@ -5,28 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MONDSIA</title>
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <script src="script.js"></script>
 
-    <div class="slide-container">
-        <div class="topnav" id="myTopnav">
-            <h2><a href="index.html">Mondsia</a></h2>
-            
-            <div class="link">
-                <a href="index.html" class="active">Home</a>
-                <a href="./html/jawa.html">Jawa</a>
-                <a href="./html/bali.html">Bali</a>
-                <a href="./html/kalimantan.html">Kalimantan</a>
-                <a href="./html/sulawesi.html">Sulawesi</a>
-                <a href="./html/sumatra.html">Sumatra</a>
-                <a href="./html/papua.html">Papua</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-                </a>
-            </div> 
+    <div class="navbar">
+        <div class="logo">Mondsia</div>
+        <div class="hamburger" onclick="hamburg()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
+        <nav class="nav-link">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="./html/jawa.html">Jawa</a></li>
+                <li><a href="./html/bali.html">Bali</a></li>
+                <li><a href="./html/kalimantan.html">Kalimantan</a></li>
+                <li><a href="./html/sulawesi.html">Sulawesi</a></li>
+                <li><a href="./html/sumatra.html">Sumatra</a></li>
+                <li><a href="./html/papua.html">Papua</a></li>
+            </ul>
+        </nav>
+    </div>
+        
+    <div class="slide-container">
         <div class="slide fade">
             <img src="./img/papua (2).jpg">
             <div class="caption">
