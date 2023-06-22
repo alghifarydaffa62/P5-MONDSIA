@@ -169,42 +169,38 @@ body {
     }
 }
 @media only screen and (max-width: 900px) {
-    .hamburger {
+    .row {
         display: block;
-        cursor: pointer;
+        font-size: 10px;
+        text-align: left;
     }
-    .hamburger .line {
-        width: 30px;
-        height: 3px;
-        background: white;
-        margin: 6px 0;
+    .intro {
+        padding-top: 45px;
     }
-    .nav-link.active {
-        height: 450px;
-        z-index: 1;
+    .intro h1 {
+        font-size: 27px;
     }
-    .nav-link {
-        height: 0;
-        position: absolute;
-        top: 80px;
-        width: 100vw;
-        left: 0;
-        right: 0;
-        background: darkcyan;
-        transition: 0.2s;
-        overflow: hidden;
-    }
-    .nav-link ul {
+    .row2 {
         display: block;
-        width: fit-content;
-        margin: 80px auto 0 auto;
-        text-align: center;
-        opacity: 0;
+        font-size: 10px;
+        text-align: left;
     }
-    .nav-link ul li a {
-        margin-bottom: 12px;
+    .row img {
+        width: 280px;
+        height: 340px;
     }
-    .caption h1 {
-        font-size: 35px;
+    .row2 img {
+        width: 280px;
+        height: 340px;
+    }
+    .budaya {
+        margin-top: 0;
+    }
+    .row4 {
+        display: block;
+        padding-left: 25px;
+    }
+    .col {
+        margin-top: 25px;
     }
 }

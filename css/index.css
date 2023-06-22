@@ -157,8 +157,14 @@ img {
         margin: 6px 0;
     }
     .nav-link.active {
-        height: 450px;
-        z-index: 1;
+        height: 100px;
+        position: absolute;
+        top: 80px;
+        width: 100vw;
+        left: 0;
+        right: 0;
+        background: darkcyan;
+        transition: 0.2s;
     }
     .nav-link {
         height: 0;
@@ -169,20 +175,25 @@ img {
         right: 0;
         background: darkcyan;
         transition: 0.2s;
-        overflow: hidden;
     }
     .nav-link ul {
         display: block;
         width: fit-content;
         margin: 80px auto 0 auto;
-        text-align: center;
-        opacity: 0;
+       text-align: center;
     }
     .nav-link ul li a {
         margin-bottom: 12px;
     }
     .caption h1 {
-        font-size: 35px;
+        font-size: 27px;
+    }
+    .slide {
+        z-index: -1;
+    }
+    .prev, .next {
+        margin: 10px;
+        padding: 5px;
     }
 }
 

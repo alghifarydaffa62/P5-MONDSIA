@@ -208,18 +208,18 @@ body {
     }
     .row {
         display: block;
-        font-size: 13px;
+        font-size: 10px;
         text-align: left;
     }
     .intro {
         padding-top: 45px;
     }
     .intro h1 {
-        font-size: 35px;
+        font-size: 27px;
     }
     .row2 {
         display: block;
-        font-size: 13px;
+        font-size: 10px;
         text-align: left;
     }
     .row img {
