@@ -42,6 +42,17 @@ body {
     z-index: 1;
     text-decoration: none;
 }
+.intro {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+    color: white;
+}
+.intro h1 {
+    font-size: 60px;
+    padding-bottom: 10px;
+}
 .active {
     background-color: #04AA6D;
     color: white;
